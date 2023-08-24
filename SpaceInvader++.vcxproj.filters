@@ -87,7 +87,7 @@
     <ClInclude Include="SelectInputHandler.h">
       <Filter>Header Files\Screens\Select</Filter>
     </ClInclude>
-    <ClInclude Include="SelectUIPannel.h">
+    <ClInclude Include="SelectUIPanel.h">
       <Filter>Header Files\Screens\Select</Filter>
     </ClInclude>
     <ClInclude Include="GameScreen.h">
@@ -143,7 +143,7 @@
     <ClCompile Include="SelectInputHandler.cpp">
       <Filter>Source Files\Screens\Select</Filter>
     </ClCompile>
-    <ClCompile Include="SelectUIPannel.cpp">
+    <ClCompile Include="SelectUIPanel.cpp">
       <Filter>Source Files\Screens\Select</Filter>
     </ClCompile>
     <ClCompile Include="GameScreen.cpp">
