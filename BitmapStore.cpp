@@ -51,3 +51,4 @@ sf::Texture& BitmapStore::getBitmap(std::string const& filename)
 #endif
 		return keyValuePair->second;
 	}
+}

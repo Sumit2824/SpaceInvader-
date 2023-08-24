@@ -1,5 +1,5 @@
 #include "SelectScreen.h"
-#include "SelectUIPanel.h"
+#include "SelectUIPannel.h"
 #include "SelectInputHandler.h"
 
 SelectScreen::SelectScreen(ScreenManagerRemoteControl* smrc, Vector2i res)
