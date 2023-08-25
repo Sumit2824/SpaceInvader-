@@ -29,7 +29,8 @@ public:
 	{
 		// Only one type of Transform so just return m_Type
 		return m_Type;
-	}void Component::disableComponent() {}
+	}
+	void Component::disableComponent() {}
 	void Component::enableComponent() {}
 	bool Component::enabled()
 	{

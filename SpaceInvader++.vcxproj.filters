@@ -162,6 +162,12 @@
     <ClInclude Include="LevelManager.h">
       <Filter>Header Files\FileIO</Filter>
     </ClInclude>
+    <ClInclude Include="BulletSpawner.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEnginePlayMode.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpaceInvader++.cpp">
@@ -256,6 +262,9 @@
     </ClCompile>
     <ClCompile Include="LevelManager.cpp">
       <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEnginePlayMode.cpp">
+      <Filter>Source Files\Engine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

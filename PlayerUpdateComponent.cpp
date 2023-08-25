@@ -57,8 +57,7 @@ void PlayerUpdateComponent::update(float fps)
 			WorldState::WORLD_HEIGHT / 2;
 	}
 }
-	void PlayerUpdateComponent::
-		updateShipTravelWithController(float x, float y)
+	void PlayerUpdateComponent::updateShipTravelWithController(float x, float y)
 	{
 		m_XExtent = x;
 		m_YExtent = y;
