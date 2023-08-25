@@ -69,8 +69,7 @@ void GameObject::addComponent(shared_ptr<Component> component)
 		// Remember where the Transform component is
 		m_TransformComponentLocation = m_Components.size() - 1;
 	}
-	else if (component->getType() == "collider" &&
-		component->getSpecificType() == "rect")
+	else if (component->getType() == "collider" && component->getSpecificType() == "rect")
 	{
 		// Remember where the collider component(s) is
 		m_HasCollider = true;
@@ -106,9 +105,7 @@ void GameObject::start(GameObjectSharer* gos)
 {
 	auto it = m_Components.begin();
 	auto end = m_Components.end();
-	for (it;
-		it != end;
-		++it)
+	for (it; it != end; ++it)
 	{
 		(*it)->start(gos, this);
 	}
@@ -118,15 +115,13 @@ shared_ptr<Component> GameObject::getComponentByTypeAndSpecificType(string type,
 {
 	auto it = m_Components.begin();
 	auto end = m_Components.end();
-	for (it;
-		it != end;
-		++it)
+	for (it; it != end; ++it)
 	{
 		if ((*it)->getType() == type)
 		{
 			if ((*it)->getSpecificType() == specificType)
 			{
-				return  (*it);
+				return (*it);
 			}
 		}
 	}
